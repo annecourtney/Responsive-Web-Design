@@ -23,25 +23,31 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -56,6 +62,7 @@ html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
+
 html {
     font-size: 62.5%;
 }
@@ -91,7 +98,6 @@ header nav a {
     text-decoration: none;
     color: #b0b0b0;
     font-size: 1.6rem;
-
 }
 
 header nav a:hover {
@@ -152,7 +158,6 @@ header .logo {
 .main-content .top-content {
     display: flex;
     justify-content: space-around;
-
 }
 
 .main-content .middle-img {
@@ -175,9 +180,11 @@ header .logo {
     margin: 2.3% 0;
     font-size: 1.6rem;
 }
+
 .contact h4 {
     font-size: 1.6rem;
 }
+
 /* Footer Styles */
 
 footer {
@@ -193,6 +200,7 @@ footer {
 .container {
     width: 100%; 
 }
+
 header {
     justify-content: center;
     flex-wrap: wrap;
@@ -213,6 +221,7 @@ header nav {
 .cta img {
     display: none;
 }
+
 .cta .cta-text {
     margin: auto auto 3%;
     padding-right: 4.2%;
@@ -222,68 +231,77 @@ header nav {
     margin-top: 3.7%;
     padding: 2%;
 }
+
 .main-content {
     margin-left: 3%;
     margin-right: 3%;
 }
+
 .main-content .top-content {
     padding: 1%;
 }
+
 .main-content .middle-img {
     width: 100%;
 }
+
 .contact p {
     margin-left: 2.6%;
 }
+
 .contact h4 {
     margin-left: 2.6%;
 }
+
 footer {
     margin-bottom: 0;
 }
 }
 
+
 @media(max-width: 400px) {
 .container {
     width: 100%;
-  
 }
+
 header .logo {
    display: flex;
    justify-content: center;
    margin-bottom: 4.6%;
    margin-top: -2%;
-
 }
+
 header nav {
     flex-direction: column;
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
 }
+
 header nav a {
     border: 1px gray solid;
     display: block;
     font-size:2rem;
     padding: 5% 0;
     width: 100%;
-    text-align: center;
-    
+    text-align: center; 
 }
+
 .cta {
     margin-top: 13%;
 }
+
 .cta .cta-text {
     margin-left: 12.5%;
     margin-bottom: 13%;
 }
+
 .main-content .top-content {
     display: flex;
     justify-content: space-around;
     flex-flow: column wrap;
     margin: 4% auto 7%;
     height: 295px;
-   
 }
 
 .main-content .top-content .text-content{
@@ -299,13 +317,16 @@ header nav a {
     margin: 7% auto auto;
     height: 420px;
 }
+
 .main-content .bottom-content .text-content{
     margin: 3.5% auto;
 
 }
+
 .contact {
     margin: 7.5% auto auto;
 }
+
 footer {
     margin-top: 6.5%;
 }
